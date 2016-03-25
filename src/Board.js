@@ -176,6 +176,7 @@
       for (var i = 0; i < this.rows().length; i++) {
         (this.get(i)[minorDiagonalColumnIndexAtFirstRow-i] === 1) && count++;
       }
+      
       return count > 1 ? true : false;
     },
 
